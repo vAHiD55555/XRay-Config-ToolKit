@@ -1,0 +1,38 @@
+trojan://telegram-id-directvpn@3.97.121.24:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[ca] [tr-tl-tc] [01am-0739687]
+vless://378ac207-38d3-4401-ba96-3a7931968bc5@104.16.61.8:80?encryption=none&type=ws&host=ca.vpnbase.net&path=%2Fhttp&security=none#[ca] [vl-no-ws] [01am-0734174]
+vless://6b99dce7-99b0-4e80-97a6-2f517b048409@162.55.188.244:29947?encryption=none&type=tcp&headerType=none&security=none#[de] [vl-no-tc] [01am-0733941]
+vless://d32cce12-e0eb-4466-a485-8a26145f875d@www.visa.com:80?encryption=none&type=ws&host=ch1.dontbow.store.&path=%2Fmelov2ray%2Fmelov2ray%2Fmelov2ray%2Fmelov2ray%2Fmelov2ray%2Fmelov2ray%2Fmelov2ray&security=none#[de] [vl-no-ws] [01am-0726978]
+vless://222b5877-b0b6-4dc7-8b77-fe8f1fc94dab@zula.ir:80?encryption=none&type=ws&host=De2.vless.site.&path=%2Fvless&security=none#[de] [vl-no-ws] [01am-0731729]
+vless://75df2395-a31e-4270-9bf8-3f5e85e0b05d@185.146.173.58:80?encryption=none&type=ws&host=jikjik.servernet.fun.&path=%2F&security=none#[de] [vl-no-ws] [01am-0733063]
+vless://36b61300-f3e8-4c91-8d8f-52bd88acf88c@185.146.173.58:8080?encryption=none&type=ws&host=kodr.servernet.fun.&path=%2F&security=none#[de] [vl-no-ws] [01am-0733104]
+vless://e44f5f09-9c6a-4783-b1df-29cd4abd785f@185.146.173.58:8080?encryption=none&type=ws&host=redc.servernet.fun.&path=%2F&security=none#[de] [vl-no-ws] [01am-0733226]
+vless://V2RAXX--@185.146.173.95:8880?encryption=none&type=ws&host=v2raxx-tel.amalfatm.ir.&path=%40V2RAXX-TEL--%40V2RAXX-TEL--%40V2RAXX-TEL--%40V2RAXX-TEL--%40V2RAXX-TEL--%40V2RAXX-TEL&security=none#[de] [vl-no-ws] [01am-0734725]
+vless://Parsashonam-89@185.146.173.94:8080?encryption=none&type=ws&host=Parsashonam.我们累了.tech.&path=%2F&security=none#[de] [vl-no-ws] [01am-0734804]
+vless://Parsashonam-89@188.114.96.3:8080?encryption=none&type=ws&host=Parsashonam.我们累了.tech.&path=%2F&security=none#[de] [vl-no-ws] [01am-0734843]
+vless://Parsashonam-89@104.17.147.22:8080?encryption=none&type=ws&host=Parsashonam.我们累了.tech.&path=%2F&security=none#[de] [vl-no-ws] [01am-0734884]
+vless://07669291-5061-4e74-a5d7-1f94a5a36367@91.107.176.13:8080?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&pbk=UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU&sni=mdundo.com&sid=18cada#[de] [vl-re-tc] [01am-0732571]
+vless://a218a675-60e4-4c61-b65b-fd565c400dc9@185.146.173.94:443?encryption=none&type=ws&host=rsfndc1.cpiforpersia.uk&path=%2F2sg8k6ktNBzuCJc1eh1994&security=tls&alpn=http%2F1.1&fp=chrome&sni=rsfndc1.cpiforpersia.uk#[de] [vl-tl-ws] [01am-0730126]
+vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@104.19.233.162:443?encryption=none&type=ws&host=mmdv2.pages.dev&path=%2F&security=tls&fp=chrome&sni=mmdv2.pages.dev#[de] [vl-tl-ws] [01am-0732528]
+vmess://eyJhZGQiOiIxODguMTE0Ljk3LjMiLCJhaWQiOjAsImlkIjoiYjI1ZjhkYTYtNTRhMi00OWIzLWJhY2YtODQwM2I0YzM2NTU2IiwicG9ydCI6IjgwIiwic2N5Ijoibm9uZSIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoiRGUxLnZtZXNzLnNpdGUuIiwicGF0aCI6Ii8iLCJ0bHMiOiJub25lIiwicHMiOiJbZGVdIFt2bS1uby13c10gWzAxYW0tMDcyNTMxOF0ifQo=
+vless://b16721a5-b18e-4517-afff-b59c1db7da55@mrjaen4k5d31.chillinglizards.com:8080?encryption=none&type=tcp&headerType=none&security=none#[fi] [vl-no-tc] [01am-0729730]
+vless://152029ab-d31e-4bf2-b4b9-da6398c7008c@188.114.98.224:8080?encryption=none&type=ws&host=unlimiteddev-vpn.unlimiteddev.Community.&path=%2FTelegram%3A%40UnlimitedDev-Telegram%3A%40UnlimitedDev&security=none#[fi] [vl-no-ws] [01am-0734925]
+trojan://telegram-id-privatevpns@13.37.176.106:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[fr] [tr-tl-tc] [01am-0739604]
+trojan://telegram-id-privatevpns@13.37.192.118:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[fr] [tr-tl-tc] [01am-0739646]
+trojan://telegram-id-directvpn@13.39.117.158:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[fr] [tr-tl-tc] [01am-0739895]
+trojan://telegram-id-directvpn@35.181.13.132:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[fr] [tr-tl-tc] [01am-0739935]
+vmess://eyJhZGQiOiIxODguMTE0Ljk3LjMiLCJhaWQiOjAsImlkIjoiZjU4NGRlMTUtMjAzNC00MTcwLWE3MjMtZjQ4YzJiYWU1ZTBmIiwicG9ydCI6IjQ0MyIsInNjeSI6ImF1dG8iLCJ2IjoiMiIsIm5ldCI6IndzIiwiaG9zdCI6ImFmcmhtczE2di5iZXN0eHJheS5idXp6IiwicGF0aCI6Ii9saW5rd3MiLCJ0bHMiOiJ0bHMiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJzbmkiOiJhZnJobXMxNnYuYmVzdHhyYXkuYnV6eiIsInBzIjoiW2ZyXSBbdm0tdGwtd3NdIFswMWFtLTA3MjUwNDZdIn0K
+trojan://telegram-id-privatevpns@13.43.238.198:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[gb] [tr-tl-tc] [01am-0739563]
+trojan://telegram-id-directvpn@18.171.116.181:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[gb] [tr-tl-tc] [01am-0739812]
+trojan://telegram-id-directvpn@3.9.109.71:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[gb] [tr-tl-tc] [01am-0739853]
+vless://--XPNTEAM--@xpn-team-mtn.eystem.ir:36762?encryption=none&type=tcp&headerType=http&host=uplod.ir&path=%2F&security=none#[gb] [vl-no-tc] [01am-0737459]
+vless://--XPNTEAM--@xpn-team-mci.eystem.ir:2087?encryption=none&type=grpc&security=tls&alpn=h2&fp=chrome&sni=xpn-team-mci.eystem.ir#[gb] [vl-tl-gr] [01am-0737500]
+vmess://eyJhZGQiOiIyMTcuMTYwLjQ1LjMxIiwiYWlkIjowLCJpZCI6IjRlMTg2Njc4LWZjY2EtNDMyNS1lNGJjLWIyOTE2YmRmNjcwOCIsInBvcnQiOiI4ODgwIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiJub25lIiwicHMiOiJbZ2JdIFt2bS1uby13c10gWzAxYW0tMDcyNDA5NV0ifQo=
+trojan://telegram-id-privatevpns@52.210.1.128:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[ie] [tr-tl-tc] [01am-0739439]
+trojan://telegram-id-privatevpns@52.17.230.242:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[ie] [tr-tl-tc] [01am-0739481]
+trojan://telegram-id-directvpn@34.252.172.145:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[ie] [tr-tl-tc] [01am-0739728]
+trojan://telegram-id-directvpn@54.72.195.119:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[ie] [tr-tl-tc] [01am-0739770]
+trojan://telegram-id-privatevpns@13.60.113.219:22222?type=tcp&headerType=none&security=tls&alpn=http%2F1.1&sni=trojan.burgerip.co.uk#[se] [tr-tl-tc] [01am-0739398]
+vless://bf7e1009-1574-44f7-86df-6cbecd338477@pardazeshvpn-tg18.pages.dev:443?encryption=none&type=ws&path=%2F&security=tls&fp=randomized&sni=pardazeshvpn-tg18.pages.dev#[sg] [vl-tl-ws] [01am-0732655]
+vmess://eyJhZGQiOiIxNzIuNjcuMTcyLjE2OCIsImFpZCI6MCwiaWQiOiJiNTUxYWEyMi0yMmFmLTExZWUtYjhkOC1mMjNjOTMyZWI2OGQiLCJwb3J0IjoiODA4MCIsInNjeSI6ImF1dG8iLCJ2IjoiMiIsIm5ldCI6IndzIiwiaG9zdCI6Im9paWN0dy55eWRzaWkuY29tIiwicGF0aCI6Ii8iLCJ0bHMiOiJub25lIiwicHMiOiJbdHddIFt2bS1uby13c10gWzAxYW0tMDcyMzk5MF0ifQo=
+vmess://eyJhZGQiOiJ1czNlLW1tbm5mcjlkb3AwLnYyZnJlZXZwbi5jb20iLCJhaWQiOjAsImlkIjoiMmE4YTEwZmItOWNhMy0zNjdlLWEyMzQtY2YwOWY4NDFiZTRmIiwicG9ydCI6IjgwIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoidXMzZS1tbW5uZnI5ZG9wMC52MmZyZWV2cG4uY29tIiwicGF0aCI6Ii92MTE4LWZjY3hteG0zNSIsInRscyI6Im5vbmUiLCJwcyI6Ilt1c10gW3ZtLW5vLXdzXSBbMDFhbS0wNzI1MTU4XSJ9Cg==
+vmess://eyJhZGQiOiIxODguMTE0Ljk3Ljc5IiwiYWlkIjowLCJpZCI6ImVkYmIxMDU5LTE2MzMtNDI3MS1iNjZlLWVkNGZiYTQ3YTFiZiIsInBvcnQiOiI0NDMiLCJzY3kiOiJhdXRvIiwidiI6IjIiLCJuZXQiOiJ3cyIsImhvc3QiOiJsaW5kZTA2LmluZGlhdmlkZW8uc2JzIiwicGF0aCI6Ii9saW5rd3MiLCJ0bHMiOiJ0bHMiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJzbmkiOiJsaW5kZTA2LmluZGlhdmlkZW8uc2JzIiwicHMiOiJbdXNdIFt2bS10bC13c10gWzAxYW0tMDcyNDIwMF0ifQo=

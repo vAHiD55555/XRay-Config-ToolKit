@@ -1,0 +1,127 @@
+#!/bin/bash
+
+function check_fragment_configs_array() {
+    local src_dir="$1"
+    local mix_file="$src_dir/mix.json"
+    local file_list=("$src_dir"/*)
+    local connected_configs=()
+
+    for ((i=${#file_list[@]}-1; i>=0; i--)); do
+        file="${file_list[$i]}"
+        if [[ "$file" == "$mix_file" ]]; then
+            continue
+        fi
+        local sed_cmd_fragment_address=$(sed_cmd_fragment_address)
+        local sed_cmd_fragment_sockopt=$(sed_cmd_fragment_sockopt)
+        local sed_cmd_fragment_remarks=$(sed_cmd_fragment_remarks "$file")
+        local sed_cmd_fragment=$(sed_cmd_fragment "$file")
+        sed -i "$sed_cmd_fragment_address" "$file"
+        sed -i "$sed_cmd_fragment_sockopt" "$file"
+        sed -i "$sed_cmd_fragment_remarks" "$file"
+        sed -i "$sed_cmd_fragment" "$file"
+
+        IFS=',' read -r response_check pid <<<"$(xray_connection_check "$file" false 10809)"
+        if [[ "$response_check" == true ]]; then
+            connected_configs+=("$(cat "$file")")
+            kill_process "$pid" >/dev/null 2>&1
+            echo "Connected and added configuration from '$file' to mix."
+        else
+            rm "$file"
+            kill_process "$pid" >/dev/null 2>&1
+        fi
+    done
+
+    {
+        echo "["
+        for ((i=0; i<${#connected_configs[@]}; i++)); do
+            if [ $i -ne 0 ]; then
+                echo ","
+            fi
+            echo "  ${connected_configs[i]}"
+        done
+        echo "]"
+    } | jq . > "$mix_file"
+}
+
+function sed_cmd_fragment_address() {
+    local sed_cmd='s#"address": ".*",#"address": "zula.ir",#g'
+    echo "$sed_cmd"
+}
+
+function sed_cmd_fragment_sockopt() {
+    local sed_cmd='s#"streamSettings": {#"streamSettings": {\
+        "sockopt": {\
+          "dialerProxy": "fragment",\
+          "tcpKeepAliveIdle": 100,\
+          "mark": 255\
+        },#g'
+    echo "$sed_cmd"
+}
+
+function sed_cmd_fragment_remarks() {
+    local file="$1"
+    local filename=$(basename "$file" | sed 's/\.json$//')
+    local sed_cmd="s#\"dns\": {#\"remarks\": \"$filename\",\\
+  \"dns\": {#g"
+    echo "$sed_cmd"
+}
+
+function sed_cmd_fragment() {
+    local file="$1"
+    local filename=$(basename "$file")
+    local sed_cmd_fragment=
+    local pattern_security_tls="^\[.*\] \[[^ ]*-tl-[^ ]*\] \[.*\]\.json$"
+    local pattern_security_no="^\[.*\] \[[^ ]*-no-[^ ]*\] \[.*\]\.json$"
+    if [[ $filename =~ $pattern_security_tls ]]; then
+        sed_cmd_fragment=$(sed_cmd_fragment_tls)
+    elif [[ $filename =~ $pattern_security_no ]]; then
+        sed_cmd_fragment=$(sed_cmd_fragment_no)
+    fi
+    echo "$sed_cmd_fragment"
+}
+
+function sed_cmd_fragment_tls() {
+    local sed_cmd='s#"protocol": "freedom",#"protocol": "freedom",\
+      "settings": {\
+        "fragment": {\
+          "packets": "tlshello",\
+          "length": "5-30",\
+          "interval": "10-20"\
+        }\
+      },\
+      "streamSettings": {\
+        "sockopt": {\
+          "TcpNoDelay": true,\
+          "tcpKeepAliveIdle": 100,\
+          "mark": 255\
+        }\
+      },\
+      "tag": "fragment"\
+    },\
+    {\
+      "protocol": "freedom",#g'
+    echo "$sed_cmd"
+}
+
+function sed_cmd_fragment_no() {
+    local sed_cmd='s#"protocol": "freedom",#"protocol": "freedom",\
+      "settings": {\
+        "fragment": {\
+          "packets": "1-1",\
+          "length": "3-5",\
+          "interval": "5"\
+        }\
+      },\
+      "streamSettings": {\
+        "sockopt": {\
+          "TcpNoDelay": true,\
+          "tcpKeepAliveIdle": 100,\
+          "mark": 255\
+        }\
+      },\
+      "tag": "fragment"\
+    },\
+    {\
+      "protocol": "freedom",#g'
+    echo "$sed_cmd"
+}
